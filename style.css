@@ -1,0 +1,25 @@
+body{
+color: red;
+background: black;
+font-family: "Roboto", sans-serif;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+}
+
+button {
+color: yellow;
+background: purple;
+font-family: "Roboto", sans-serif;
+font-size: 25px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
